@@ -16,6 +16,10 @@ function App() {
         <Route path="/counter" element={<Counter />} />
         <Route path="/wikipedia" element={<Wiki />} />
       </Routes>
+      <div className="footer">
+  © 2025 Satish Veeravalli
+</div>
+
     </Router>
   );
 }

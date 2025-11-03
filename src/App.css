@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+.footer {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  color: #777;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.footer:hover {
+  opacity: 1;
+  color: #000;
+}
+
