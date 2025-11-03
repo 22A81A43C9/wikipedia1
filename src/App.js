@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Homepage from './pages/Homepage';
 import Counter from './components/Counter';
 import Navbar from './components/Navbar';
@@ -10,9 +10,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        {/* 👇 Default route for "/" */}
         <Route path="/" element={<Wiki />} />
-
         <Route path="/nav" element={<Navbar />} />
         <Route path="/home" element={<Homepage />} />
         <Route path="/counter" element={<Counter />} />
